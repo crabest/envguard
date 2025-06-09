@@ -1,5 +1,5 @@
 {
-  "name": "envguard",
+  "name": "@crabest/envguard",
   "version": "0.1.0",
   "description": "🛡️ Validate .env files and manage multiple environments with auto-sync",
   "main": "index.js",

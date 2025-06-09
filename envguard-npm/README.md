@@ -1,6 +1,6 @@
 # EnvGuard 🛡️
 
-[![npm version](https://badge.fury.io/js/envguard.svg)](https://www.npmjs.com/package/envguard)
+[![npm version](https://badge.fury.io/js/envguard.svg)](https://www.npmjs.com/package/@crabest/envguard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A powerful CLI tool that validates `.env` files against `.env.example` files and manages multiple environment configurations with ease.
@@ -19,14 +19,13 @@ A powerful CLI tool that validates `.env` files against `.env.example` files and
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g envguard
+npm install -g @crabest/envguard
 ```
 
 ### Local Installation
 
 ```bash
-npm install envguard
-npx envguard --help
+npm install @crabest/envguard
 ```
 
 ## 🚀 Quick Start
@@ -141,8 +140,8 @@ chmod +x $(which envguard)
 ### Reinstallation
 ```bash
 # If something goes wrong, try:
-npm uninstall -g envguard
-npm install -g envguard
+npm uninstall -g @crabest/envguard
+npm install -g @crabest/envguard
 ```
 
 ### Platform Not Supported
@@ -163,4 +162,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - [Source Code](https://github.com/crabest/envguard)
 - [Issues](https://github.com/crabest/envguard/issues)
-- [npm Package](https://www.npmjs.com/package/envguard) 
+- [npm Package](https://www.npmjs.com/package/@crabest/envguard) 

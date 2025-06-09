@@ -19,14 +19,13 @@ A powerful CLI tool that validates `.env` files against `.env.example` files, en
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g envguard
+npm install -g @crabest/envguard
 ```
 
 ### Local Installation
 
 ```bash
-npm install envguard
-npx envguard --help
+npm install @crabest/envguard
 ```
 
 ### Build from Source
