@@ -1,0 +1,19 @@
+# Test artifacts
+*.test
+*.prof
+coverage.out
+coverage.html
+test-results/
+
+# Environment files created during testing
+.env
+.env.*
+.envguard/
+
+# Temporary test files
+tmp/
+temp/
+test-data/
+
+# Go test cache
+*.cache 

@@ -1,0 +1,49 @@
+# npm artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Built packages
+*.tgz
+
+# Environment management directory (for testing)
+.envguard/
+
+# Test artifacts
+test-results/
+temp-test-*/
+
+# Logs
+*.log
+
+# Cache directories
+.npm
+.yarn
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Optional cache files
+.eslintcache
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,53 @@
+{
+  "name": "envguard",
+  "version": "0.1.0",
+  "description": "🛡️ Validate .env files and manage multiple environments with auto-sync",
+  "main": "index.js",
+  "bin": {
+    "envguard": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "dotenv",
+    "validation",
+    "cli",
+    "config",
+    "development",
+    "devtools",
+    "auto-sync"
+  ],
+  "author": "EnvGuard Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crabest/envguard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crabest/envguard/issues"
+  },
+  "homepage": "https://github.com/crabest/envguard#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "index.js",
+    "postinstall.js",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "preferGlobal": true
+} 
